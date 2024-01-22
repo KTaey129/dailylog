@@ -54,7 +54,7 @@ class Swiss(Bank):
 
     def basicinfo(self):
         print("This is the Swiss Bank")
-        return print(f"Swiss Bank: {self.bal}")
+        return f"Swiss Bank: {self.bal}"
 
     def withdraw(self, amount):
         if amount > self.bal:
